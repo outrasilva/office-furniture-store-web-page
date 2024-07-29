@@ -18,7 +18,7 @@ a {
 }
 
 a:hover {
-    color: #F6A429;
+    color: #fccb81;
 }
 
 /* Navbar */
@@ -47,17 +47,20 @@ a:hover {
     background-image: url(../img/banner.jpg);
     background-size: cover;
     background-position: center;
-    padding: 16rem 0;
+    padding: 12rem 2rem; /* Adicione padding lateral */
+    display: flex;
+    justify-content: flex-end; /* Alinha o conteúdo à direita */
+    align-items: center; /* Alinha verticalmente ao centro */
 }
 
 .main-banner h1 {
     color: #F6A429;
     font-family: "Economica", sans-serif;
-    text-align: right;
-    text-shadow: #000 2px 1px 2px;
-}
-
-.main-banner h1 {
     font-size: 80px;
     margin-bottom: 20px;
+    margin-right: 5rem; /* Adiciona margem à direita para evitar que encoste no canto */
+    text-shadow: #000 2px 1px 2px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.645) 80%); /* Gradiente linear */
+    padding: 10px 20px; /* Espaçamento interno para melhorar a aparência */
+    border-radius: 5px; /* Canto arredondado */
 }
