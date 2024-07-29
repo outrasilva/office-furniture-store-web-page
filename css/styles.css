@@ -111,3 +111,15 @@ main {
     font-family: "Open Sans", sans-serif;
     line-height: 1.6;
 }
+
+/* Serviços */
+#services-container {
+    background-color: #54A48C;
+}
+
+.services-titulo {
+    text-align: center;
+    color: #FFF;
+    font-family: "Economica", sans-serif;
+    font-size: 64px;
+}
