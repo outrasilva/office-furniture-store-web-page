@@ -115,11 +115,15 @@ main {
 /* Serviços */
 #services-container {
     background-color: #54A48C;
+    padding: 5rem 0;
 }
 
 .services-titulo {
     text-align: center;
     color: #FFF;
     font-family: "Economica", sans-serif;
-    font-size: 64px;
+    font-size: 48px;
+    margin-bottom: 5rem;
 }
+
+
