@@ -153,5 +153,18 @@ main {
     color: #1E1E1E;
     font-family: "Economica", sans-serif;
     font-size: 48px;
-    margin-bottom: 5px;
+    margin-bottom: 3rem;
+}
+
+.slider {
+    margin: 0 auto;
+    width: 1200px;
+    height: 650px;
+    overflow: hidden;
+}
+
+.slides {
+    width: 400%;
+    height: 650px;
+    display: flex;
 }
