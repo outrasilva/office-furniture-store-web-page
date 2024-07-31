@@ -115,7 +115,7 @@ main {
 /* Serviços */
 #services-container {
     background-color: #54A48C;
-    padding: 5rem 0;
+    padding: 3rem 0;
 }
 
 .services-titulo {
@@ -123,7 +123,35 @@ main {
     color: #FFF;
     font-family: "Economica", sans-serif;
     font-size: 48px;
-    margin-bottom: 5rem;
+    margin-bottom: 5px;
 }
 
+#services-container ul {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
 
+#services-container li {
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 30px;
+    font-family: "Open Sans", sans-serif;
+    color: #FFF;
+    font-size: 20px;
+}
+
+/*Produtos*/
+#produtos-container {
+    background-color: #FFFDF5;
+    padding: 3rem 0;
+}
+
+.produtos-titulo {
+    text-align: center;
+    color: #1E1E1E;
+    font-family: "Economica", sans-serif;
+    font-size: 48px;
+    margin-bottom: 5px;
+}
