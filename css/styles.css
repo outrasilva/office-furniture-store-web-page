@@ -62,7 +62,7 @@ main {
     font-family: "Economica", sans-serif;
     font-size: 80px;
     margin-bottom: 20px;
-    margin-right: 5rem; /* Adiciona margem à direita para evitar que encoste no canto */
+    margin-right: 10rem; /* Adiciona margem à direita para evitar que encoste no canto */
     text-shadow: #000 2px 1px 2px;
     background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.645) 80%); /* Gradiente linear */
     padding: 10px 20px; /* Espaçamento interno para melhorar a aparência */
@@ -75,7 +75,7 @@ main {
     justify-content: center;
     align-items: center;
     padding: 5rem 0;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -122,13 +122,13 @@ main {
     text-align: center;
     color: #FFF;
     font-family: "Economica", sans-serif;
-    font-size: 48px;
+    font-size: 40px;
     margin-bottom: 5px;
 }
 
 #services-container ul {
     display: flex;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -142,6 +142,10 @@ main {
     font-size: 20px;
 }
 
+#services-container li img {
+    width: 70px;
+}
+
 /*Produtos*/
 #produtos-container {
     background-color: #FFFDF5;
@@ -152,13 +156,13 @@ main {
     text-align: center;
     color: #1E1E1E;
     font-family: "Economica", sans-serif;
-    font-size: 48px;
+    font-size: 40px;
     margin-bottom: 3rem;
 }
 
 .slider {
     margin: 0 auto;
-    width: 800px;
+    width: 1200px;
     height: 650px;
     overflow: hidden;
 }
@@ -176,16 +180,17 @@ main {
 .slide {
     width: 25%;
     position: relative;
+    transition: 2s;
 }
 
 .slide img {
-    width: 800px;
+    width: 1200px;
 }
 
 .manual-navigation {
     position: absolute;
-    width: 800px;
-    margin-top: -40px;
+    width: 1200px;
+    margin-top: 200px;
     display: flex;
     justify-content: center;
 }
@@ -236,8 +241,8 @@ main {
 
 .navigation-auto {
     position: absolute;
-    width: 800px;
-    margin-top: 360px;
+    width: 1200px;
+    margin-top: 600px;
     display: flex;
     justify-content: center;
 }
