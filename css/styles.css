@@ -312,3 +312,13 @@ main {
 .dados-detalhados img {
     margin-right: 10px; /* Espaçamento entre a imagem e o texto */
 }
+
+/*Footer*/
+footer {
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding: 1.5rem 2.5rem;
+    background-color: #54A48C;
+}
