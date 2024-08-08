@@ -270,3 +270,45 @@ main {
 #radio5:checked ~.navigation-auto .auto-btn5 {
     background-color: #FFF;
 }
+
+/*Contato*/
+#contact-container {
+    background-color: #FFFDF5;
+    padding: 3rem 0;
+}
+
+.contato-titulo {
+    text-align: center;
+    color: #54A48C;
+    font-family: "Economica", sans-serif;
+    font-size: 40px;
+    margin-bottom: 3rem;
+}
+
+.dados-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.info, .maps {
+    flex: 1;
+    text-align: center;
+}
+
+.dados-detalhados {
+    display: flex;
+    align-items: center; /* Alinha verticalmente o texto com a imagem */
+    color: #54A48C;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.dados-detalhados img {
+    margin-right: 10px; /* Espaçamento entre a imagem e o texto */
+}
