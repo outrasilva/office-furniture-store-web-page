@@ -50,11 +50,17 @@ main {
 .main-banner {
     background-image: url(../img/banner.jpg);
     background-size: cover;
-    background-position: center;
-    padding: 12rem 2rem; /* Adicione padding lateral */
+    background-position: right center; /* Alinha o fundo à direita */
+    padding: 12rem 0; /* Remova o padding lateral */
     display: flex;
     justify-content: flex-end; /* Alinha o conteúdo à direita */
     align-items: center; /* Alinha verticalmente ao centro */
+}
+
+.background-banner {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.645) 80%);
+    padding: 10px 20px;
+    align-items: flex-end;
 }
 
 .main-banner h1 {
@@ -62,11 +68,8 @@ main {
     font-family: "Economica", sans-serif;
     font-size: 80px;
     margin-bottom: 20px;
-    margin-right: 10rem; /* Adiciona margem à direita para evitar que encoste no canto */
+    margin-right: 10rem; /* Mantém a margem para não encostar no canto */
     text-shadow: #000 2px 1px 2px;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.645) 80%); /* Gradiente linear */
-    padding: 10px 20px; /* Espaçamento interno para melhorar a aparência */
-    border-radius: 5px; /* Canto arredondado */
 }
 
 /* Sobre */
